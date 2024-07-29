@@ -1,169 +1,30 @@
-//Font CSS
-/* cyrillic-ext */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUbOvISTs.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* cyrillic */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUZevISTs.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* vietnamese */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUbuvISTs.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-
-/* latin-ext */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUb-vISTs.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUYevI.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* cyrillic-ext */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIOOaBXso.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* cyrillic */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIMeaBXso.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* vietnamese */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIOuaBXso.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-
-/* latin-ext */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIO-aBXso.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaB.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* cyrillic-ext */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUbOvISTs.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* cyrillic */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUZevISTs.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* vietnamese */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUbuvISTs.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-
-/* latin-ext */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUb-vISTs.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUYevI.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-
 //Variables
 
-//Fonts
-$one__font: 'Nunito', Helvetica, Verdana, Arial, sans-serif !important;
+$one__font: "Odoo Unicode Support Noto", "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
 
 //Colors
-$one__light: #fff !default;
-$one__primary: #1F2631 !default;
-$one__sidebar-color: #1F2631 !important;
-$one__sidebar-color-hover: #1c222c !default;
-$one__sidebar-border: #1F2631 !important;
+$one__light: #FFF !default;
+$one__primary: #386aeb !default;
+$one__sidebar-color-hover: #274aa5 !important;
+$one__sidebar-border: #386aeb !important;
+$one__sidebar-color: #386aeb !important;
 $one__sidebar_text: #fff !default;
-$one__primary-light: #e9e9ea !default;
-$one__primary-dark: #1c222c !important;
-$one__light-font-primary: #030405 !important;
+$one__primary-light: #ebf0fd !default;
+$one__primary-dark: #274aa5 !important;
+$one__light-font-primary: #1f2631 !important;
 $one__light-font-secondary: #575757 !important;
 $one__hover-bkg-light: #f5f5f5 !important;
 $one__border-light: #d4d4d4 !important;
 $one__info: #454555 !important;
 
 //Border Style
-$one__border: 100px;
-$one__button-padding: 25px;
+$one__border: 0px;
+$one__button-padding: auto;
 //Misc
 $transition-normal: all 0.4s linear !default;
 $transition-fast: all 0.2s linear !default;
-
 //Paths
-$dots_menu_toggled: url('/vista_backend_theme/static/src/img/icons/dots-menu-navy.png');
+$dots_menu_toggled: url('/my_custom_theme/static/src/img/icons/dots-menu-primary.png');
 
 
 //Misc
@@ -601,11 +462,6 @@ li.o_MessagingMenu.o-is-open {
     }
 }
 
-.btn-group>.btn-group:not(:last-child)>.btn {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
 .o_control_panel .o_cp_bottom_left>.o_cp_action_menus .o_dropdown_toggler_btn,
 .o_control_panel .o_cp_bottom_left>.o_cp_action_menus .dropdown-toggle {
     margin-right: 0px !important;
@@ -854,7 +710,6 @@ tr:nth-child(even) {
 
 .o_setting_search {
     padding: 5px;
-    border-radius: $one__border !important;
 }
 
 //Kanban
@@ -1087,11 +942,6 @@ tr:nth-child(even) {
 }
 
 
-.o_enterprise_label {
-    border-radius: $one__border;
-    padding: 5px 10px 4px !important;
-}
-
 .oe_kanban_card .o_kanban_tags .o_tag,
 .o_kanban_view .o_kanban_record .o_field_many2manytags .o_tag,
 .o_kanban_view .o_kanban_record .o_kanban_tags .o_tag {
@@ -1103,7 +953,7 @@ tr:nth-child(even) {
 }
 
 .c_dots_menu {
-    background-image: url('/vista_backend_theme/static/src/img/icons/dots-menu.png');
+    background-image: url('/my_custom_theme/static/src/img/icons/dots-menu.png');
     width: 18px;
     height: 18px;
     background-repeat: no-repeat;
@@ -1170,51 +1020,12 @@ tr:nth-child(even) {
     }
 }
 
-//Border Radius
-.o_form_button,
-.custom-checkbox .custom-control-label::before,
-.o_searchview,
-.o_searchview .o_searchview_facet,
-.o-dropdown--menu>div>button,
-.oe_title>div>a {
-    border-radius: $one__border !important;
-}
-
-.o_arrow_button {
-    border-radius: 0px !important;
-}
-
-.dropdown-menu {
-    border-radius: 5px !important;
-}
-
-input[type='text'],
-select {
-    border-radius: $one__border !important;
-}
-
-//Rounded Buttons
-.o_form_button_edit,
-.o_form_button_create,
-.o-kanban-button-new,
-.o_button_upload_bill,
-.o_DiscussSidebar_startAMeetingButton,
-.oe_kanban_action_button,
-.o_web_settings_invite,
-.oe_module_action>a,
-.o_list_buttons>button,
-footer>button,
-.o_statusbar_buttons>button {
-    border-radius: $one__border !important;
-    padding: 5px $one__button-padding 3px !important;
-    margin-right: 5px !important;
-}
-
 #sidebar_panel {
     height: 100%;
     position: fixed;
     top: 0px;
     background-color: $one__sidebar-color;
+    border-right: 1px solid $one__sidebar_border;
     display: none;
     width: 80px;
     overflow-y: scroll;

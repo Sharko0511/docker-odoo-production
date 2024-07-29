@@ -141,7 +141,7 @@
 $one__font: 'Nunito', Helvetica, Verdana, Arial, sans-serif !important;
 
 //Colors
-$one__light: #fff !default;
+$one__light: black !default;
 $one__primary: #1F2631 !default;
 $one__sidebar-color: #1F2631 !important;
 $one__sidebar-color-hover: #1c222c !default;
@@ -163,7 +163,7 @@ $transition-normal: all 0.4s linear !default;
 $transition-fast: all 0.2s linear !default;
 
 //Paths
-$dots_menu_toggled: url('/vista_backend_theme/static/src/img/icons/dots-menu-navy.png');
+$dots_menu_toggled: url('/my_custom_theme/static/src/img/icons/dots-menu-navy.png');
 
 
 //Misc
@@ -1103,7 +1103,7 @@ tr:nth-child(even) {
 }
 
 .c_dots_menu {
-    background-image: url('/vista_backend_theme/static/src/img/icons/dots-menu.png');
+    background-image: url('/my_custom_theme/static/src/img/icons/dots-menu.png');
     width: 18px;
     height: 18px;
     background-repeat: no-repeat;
